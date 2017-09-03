@@ -23,6 +23,7 @@ Foi utilizado a IDE Eclipse.
 3 - Url de execução/testes dos Serviços
   
   1- Serviço para cadastrar pontos de interesse com 3 atributos.
+   
    url:
      http://localhost:8080/api/poi
 	 
@@ -30,6 +31,7 @@ Foi utilizado a IDE Eclipse.
 	  {"descricao": "Posto","x":"12","y":"18"}
 	  
   2- Serviço para listar todos os POIs cadastrados.
+  
    url:  
      http://localhost:8080/api/poi
 	 
