@@ -6,39 +6,40 @@ Foi utilizado o banco de dados postgres.
 Foi utilizado a IDE Eclipse.
 
 
-1 -Para executar a aplicaÁ„o:
-  - Executar os scripts de criaÁ„o da base dados, criaÁ„o de usu·rio e de carga de dados inicial. Arquivo "sql_cria banco.sql"
+1 -Para executar a aplica√ß√£o:
+  - Executar os scripts de cria√ß√£o da base dados, cria√ß√£o de usu√°rio e de carga de dados inicial. Arquivo "sql_cria banco.sql"
   
-2 - Compilar aplicaÁ„o:
+2 - Compilar aplica√ß√£o:
   
   Dentro da pasta do projeto executar:
    
    mvn install
    
-   ApÛs compilado entrar na pasta target e executar o comando:
+   Ap√≥s compilado entrar na pasta target e executar o comando:
    
    java -jar xy-inc-0.0.1-SNAPSHOT.jar
 
   
-3 - Url de execuÁ„o/testes dos ServiÁos
+3 - Url de execu√ß√£o/testes dos Servi√ßos
   
-  1- ServiÁo para cadastrar pontos de interesse com 3 atributos:
+  1- Servi√ßo para cadastrar pontos de interesse com 3 atributos.
    url:
      http://localhost:8080/api/poi
 	 
 	 Json :
 	  {"descricao": "Posto","x":"12","y":"18"}
 	  
-  2- ServiÁo para listar todos os POIs cadastrados.
+  2- Servi√ßo para listar todos os POIs cadastrados.
    url:  
      http://localhost:8080/api/poi
 	 
-  3- ServiÁo para listar POIs por proximidade.
+  3- Servi√ßo para listar POIs por proximidade.
   
    url:
      http://localhost:8080/api/poi/27/12/1
 	 
-	 Onde 27 È a coordenada x
-	      12 È a coordenada y
-		  1 È a dist‚ncia maxima entre os pontos.
+	 Onde :
+	 27 √© a coordenada x
+	 12 √© a coordenada y
+	 1 √© a dist√¢ncia maxima entre os pontos.
   
